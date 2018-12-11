@@ -10,7 +10,7 @@ public class HomeController {
 	public String index() {
 		System.out.println("Hello world :)");
 		
-		return "/home/index";
+		return "home/index";
 	}
 
 }
