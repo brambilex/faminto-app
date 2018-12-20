@@ -3,10 +3,9 @@ package server.daos;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import server.models.Produto;
-
+import server.models.Pedido;
 
 @Repository
-public interface ProdutoDAO extends CrudRepository<Produto, Integer> {
-	
+public interface PedidoDAO extends CrudRepository<Pedido, Integer> {
+
 }
